@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class power{
+public static void main(String[]args){
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter base value");
+    int b=s.nextInt();
+    System.out.println("Enter exponent value");
+    int e=s.nextInt();
+    if(e>0){
+        double p=power(b,e);
+        System.out.println(p);
+    }else{
+        double p=power(b,-e);
+        System.out.println(1/p);
+    }
+}
+public static double power(int b, int e){
+    double p=1;
+    while(e>0){
+        p=p*b;
+        e--;
+    }
+        return p;
+     }
+
+}
