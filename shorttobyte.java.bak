@@ -1,0 +1,11 @@
+class shorttobyte 
+{
+	public static void main(String[] args) 
+	{
+		short s=15;
+		byte b=s;
+		System.out.println(s);
+		System.out.println(b);
+		
+	}
+}

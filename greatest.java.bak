@@ -1,0 +1,14 @@
+//define a method to accept an 3 integer and find greatest number
+import java.util.Scanner;
+public class greatest {
+	public static void greatest(){
+		Scanner s=new Scanner(System.in)'
+		System.out.println("Enter 2 numbers one by one");
+		int a=s.nextInt(),b=s.nextInt();
+		System.out.println(a>b?a+"is Greatest":b+"is greatest");
+	}
+	public static void main(String[] args) 
+	{
+		greatest();
+	}
+}

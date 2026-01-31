@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class shop {
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("If it is holiday then enter y for yes,enter n for no ");
+        char c = s.next().charAt(0);
+        System.out.println("If weekly off then enter y for true, enter n for false");
+        char a = s.next().charAt(0);
+        String res =c==a || c=='y'?"Shop remains opens ": "Shop remains close";
+        System.out.println(res);
+    }
+}
+

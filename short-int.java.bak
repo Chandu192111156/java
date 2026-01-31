@@ -1,0 +1,10 @@
+class short-int 
+{
+	public static void main(String[] args) 
+	{
+		short s=13;
+		int i=s;
+		System.out.println(s);
+		System.out.println(i);
+	}
+}

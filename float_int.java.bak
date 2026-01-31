@@ -1,0 +1,10 @@
+class float_int 
+{
+	public static void main(String[] args) 
+	{
+		float f=145;
+		int i=f;
+			System.out.println(f);
+		System.out.println(i);
+	}
+}

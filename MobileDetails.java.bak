@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class MobileDetails
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter Brand");
+		String brand=s.next();
+		System.out.println("Enter price");
+		double price=s.nextDouble();
+		System.out.println("Enter color");
+		String color=s.next();
+		System.out.println("Enter Ram");
+		int ram=s.nextInt();
+		System.out.println("Enter Rom");
+		int rom=s.nextInt();
+		System.out.println("Enter processor");
+		String processor=s.next();
+		System.out.println("Enter Camera picxel");
+		String picxel=s.next();
+		System.out.println("Enter battery capacity");
+		String capacity=s.next();
+		System.out.println(brand);
+		System.out.println(price);
+		System.out.println(color);
+		System.out.println(ram);
+		System.out.println(rom);
+		System.out.println(processor);
+		System.out.println(picxel);
+		System.out.println(capacity);
+		
+	}
+}

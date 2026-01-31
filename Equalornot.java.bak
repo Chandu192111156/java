@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class  Equalornot
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int a=s.next.Int();
+		int b=s.nextInt();
+		String res=a==b?a+"same":b+"different";
+		System.out.println(res);
+	}
+}

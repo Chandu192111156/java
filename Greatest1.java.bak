@@ -1,0 +1,19 @@
+//define a method to accept 2 integer and return greatest among two numbers
+import java.util.Scanner;
+class Greatest1 {
+	public static int gr(int a, int b){
+		if(a>b)
+			return a;
+		else
+			return b;
+	}
+		
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter two numbers");
+		int a=s.nextInt(),b=s.nextInt();
+		int res=gr(a,b);
+		System.out.println("Greatest of "+a+"  "+b+" is " +res);
+	}
+}

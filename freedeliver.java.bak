@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class freedeliver {
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter the order amount: ");
+        int a = s.nextInt();
+        System.out.println("If the customer is a premium number, enter y for yes, enter n for no");
+		char c = s.next().charAt(0);
+        String res =a>500 || c=='y'?"A customer gets free delivery":"A customer not get free delivery";
+        System.out.println(res);
+    }
+}

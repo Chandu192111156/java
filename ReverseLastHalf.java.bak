@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class  ReverseLastHalf{
+	public static int count(int n){
+		int count=0;
+		while(n!=0){
+			count++;
+			n/=10;
+		}
+		return count;
+	}
+	public static int reverse(int n){
+		int rev=0;
+		for( ;n!=0;n/=10){
+			int last=n%10;
+			rev=rev*10+last;
+		}
+		return rev;
+	}
+	public static int power(int base, int exp){
+		int power=1;
+		for(int i=1;i<=exp;i++){
+			power*=base;
+		}
+		return power;
+	}
+	public static int reverseLasthalf(int n){
+		int count=count(n);
+		int exp=count/2;
+		int power=power(10, exp);
+		int half=n%pow;
+		int reverseHalf=reverse(half);
+		int res= (n/power) * power + reverseHalf ;
+		return res;
+	}
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=s.nextInt();
+		int res=reverseLasthalf(n);
+		System.out.println("reverseLasthalf of"+n+"is :"+res);
+	}
+}

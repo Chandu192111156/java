@@ -1,0 +1,10 @@
+class Ex4 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		char c='a';
+		int res=a+c
+		System.out.println(res);
+	}
+}
