@@ -1,0 +1,11 @@
+class bytetochar 
+{
+	public static void main(String[] args) 
+	{
+		byte b=3;
+		char c=b;
+		
+		System.out.println(b);
+		System.out.println(c);
+	}
+}

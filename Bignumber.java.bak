@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class  Bignumber
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a numbers");
+		int n=s.nextInt();
+		String res=n>10? n+" Big number":n+" Small number";
+		System.out.println(res);
+	}
+}
