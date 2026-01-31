@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class attendance75 {
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter the Attendance: ");
+        int a = s.nextInt();
+        System.out.println("If paid fees enter y for yes, enter n for no");
+        char c = s.next().charAt(0);
+        String res =a >= 75 && c == 'y'? "Eligible to write exam": a < 75 && c == 'n'? "Not eligible to write exam": a < 75 && c == 'y'? "Less attendance but fees are paid, not eligible to write exam": "Fees not paid, not eligible to write exam";
+        System.out.println(res);
+    }
+}
