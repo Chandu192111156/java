@@ -1,0 +1,10 @@
+class double_long 
+{
+	public static void main(String[] args) 
+	{
+		double d=64;
+		long l=d;
+		System.out.println(d);
+		System.out.println(l);
+	}
+}

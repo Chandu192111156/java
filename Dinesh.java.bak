@@ -1,0 +1,18 @@
+class dinesh 
+{
+	public static void main(String[] args) 
+	{
+		int id=1,age;
+		String name="Dinesh";
+		age=20;
+		String course="CSE";
+		String dname="Software";
+		String designation="b.e";
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(course);
+		System.out.println(dname);
+		System.out.println(designation);
+	}
+}

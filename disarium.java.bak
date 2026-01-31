@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class  disarium
+{
+	public static int count(int n){
+		int count = 0;
+		while(n!=0){
+			count++;
+			n/=10;
+		}
+		return count;
+	}
+	public static int power(int base, int exp)
+	{
+		int pow=1;
+		for(int i=1;i<=exp;i++){
+			pow=pow*base;
+		}
+		return pow;
+	}
+	public static boolean isdisarium(int n){
+		int sum=0;
+		int exp=count(n);
+		for( int temp=n; temp!=0;temp/=10){
+			int base=temp%10;
+			sum=sum+power(base,exp--);
+			return sum==0;
+			}
+	public static void main(String[] args) 
+	{
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=s.nextInt();
+		System.out.println(isdisarium(n));
+	}
+}
+}
+
+

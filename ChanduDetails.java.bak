@@ -1,0 +1,32 @@
+class ChanduDetails 
+{
+	public static void main(String[] args) 
+	{
+		int rollnumber=7;
+		String name="ChanduRoyal";
+		String age=22;
+		String Gender="Male";
+		String email="Chandu@gmail.com";
+		String course="CSE";
+		String address="2-37/1 Veppakuppam , R.C.Puram , Titupati";
+		long mobileNumber=9676364276l;
+		float height=6.1f;
+		float salary=45963.23f;
+		float weight=96.750f;
+		String designation="Fullstack Developer";
+		String dname="Teamlead";
+		System.out.println(rollnumber);
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(Gender);
+		System.out.println(email);
+		System.out.println(course);
+		System.out.println(address);
+		System.out.println(mobileNumber);
+		System.out.println(height);
+		System.out.println(salary);
+		System.out.println(weight);
+		System.out.println(designation);
+		System.out.println(dname);
+	}
+}
