@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class  Armstrong// fixed range
+{
+	public static void main(String[] args) 
+	{
+		for(int i=1;i<1000;i++){
+		int temp=i;
+		int count=0;
+		while(temp!=0){
+			int ld=temp%10;
+			count++;
+			temp/=10;
+	}
+	temp=i;
+	int sum=0;
+	while(temp!=0){
+		int ld=temp%10;
+		sum=(int)(sum+Math.pow(ld,count));
+		temp/=10;
+}
+if(i==sum){
+	System.out.println(i);
+}
+	}
+}
+}
