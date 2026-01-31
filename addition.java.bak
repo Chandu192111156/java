@@ -1,0 +1,16 @@
+//define a method to accept 2 integer and return addition of 2 numbeters
+import java.util.Scanner;
+class addition{
+	public static int add(int a, int b){
+		int res=a+b;
+		return res;
+}  
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter two Numbers);
+		int a=s.nextInt(),b=s.nextInt();
+		int c=add(a,b);
+		System.out.println(a+"+"+b+"="+c);
+	}
+}
