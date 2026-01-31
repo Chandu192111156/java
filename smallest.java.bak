@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class  smallest
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the numbers");
+		int n=s.nextInt(); 
+		int n=s.nextInt();
+		int res=a<b?a:b;
+		System.out.println(res+"is smallest number");
+	}
+}

@@ -1,0 +1,20 @@
+//define a method to accept a character return vowel if the given character is vowel else return consonent
+import java.util.Scanner;
+class  Vowelmethod{
+	public static String vowelconsonent(char c){
+		switch(c){
+			case 'a','e','i','o','u','A','E','I','O','U':
+			return "vowel";
+			default:
+				return "consonent";
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter a character");
+		char c=s.next().chatAt(0);
+		String res=vowelconsonent(c);
+		System.out.println(c+"is"+ res);
+	}
+}

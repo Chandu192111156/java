@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class WebAccess {
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("If user is blocked enter y, otherwise enter n:");
+        char c = s.next().charAt(0);
+
+        String res = (c == 'y') ? "User is not allowed to access the website"
+                   : (c == 'n') ? "User is allowed to access the website"
+                   : "Invalid input";
+
+        System.out.println(res);
+        s.close();
+    }
+}

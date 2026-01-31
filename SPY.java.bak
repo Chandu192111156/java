@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class  SPY{
+	public static boolean isSpy(int n)
+{
+		int sum=0, product=1;
+		for(int tem=n;temp!=0;temp/=10){
+			int last=temp%10;
+			sum+=last;
+			product*=last;
+		}
+		return sum==product;
+}
+	public static void main(String[] args) 
+	{
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter a number");
+		int n=s.nextInt();
+		System.out.println(isSpy(n)?n+"is SPY":n+"is not SPY");
+	}
+}

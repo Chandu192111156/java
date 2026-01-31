@@ -1,0 +1,20 @@
+//define a method to accept 3 integers and return smallest among 3
+import java.util.Scanner;
+class  smallest1
+{
+	public static int sm(int a, int b, int c){
+		if(a<b && a<c) return a;
+		else if(b<c)
+			return b;
+		else
+			return c;
+	}
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in); 
+		System.out.println("Enter 3 number");
+		int a=s.nextInt(),b=s.nextInt(),c=s.nextInt();
+		int res=sm(a,b,c);
+		System.out.println("Smallest of " +a+ " " +b+" " +c+ "is" + rev);
+	}
+}
